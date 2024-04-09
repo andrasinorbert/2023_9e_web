@@ -1,0 +1,29 @@
+img[width]{
+    border: 6px solid green;
+}
+img[width="200px"]{
+    border: 6px solid pink;
+}
+/*
+Formázd meg azokat a képeket,
+melyeknek a magassága 200px, így:
+border: 6px solid brown;
+*/
+img[height="200px"]{
+    border: 6px solid brown;
+}
+img[alt~="cica"]{
+    border: 6px solid blue;
+}
+img[title|="cica"]{
+    border: 6px solid red;
+}
+img[src$=".jpg"]{
+    border: 6px solid yellow;
+}
+img[src^="cic"]{
+    border: 6px solid purple;
+}
+img[title*="-"]{
+    border: 6px solid royalblue;
+}
