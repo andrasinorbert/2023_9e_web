@@ -1,0 +1,36 @@
+a:link{
+    color:green;
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    font-size:150%;
+}
+
+li:first-child{
+    background-color: aqua;
+}
+li:last-child{
+    background-color: chocolate;
+}
+li:nth-child(4){
+    background-color: cornflowerblue;
+}
+li:nth-child(2n){
+    color:blueviolet;
+}
+li:nth-child(2n+1){
+    color:mediumspringgreen;
+}
+p::first-letter{
+    font-size: 120%;
+    color:red;
+}
+p::first-line{
+    background-color: aqua;
+}
+p::selection{
+    color:blue;
+    background-color: yellow;
+}
